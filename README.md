@@ -15,5 +15,5 @@ organization. It is abstract artwork, not a product screenshot.
 
 Run `just check` to validate task formatting, local documentation links and the
 profile cover reference. `just verify` runs the same source check. CI prepares
-Lychee at the version declared in `.github/workflows/ci.yml`; local checks require
+the verified Lychee archive declared in `.github/ci-tools.json`; local checks require
 it on `PATH`. No application test or server is involved.
