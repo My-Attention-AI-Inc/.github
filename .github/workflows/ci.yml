@@ -17,4 +17,4 @@ jobs:
       contents: read
     with:
       hosted-runner: ubuntu-26.04
-      tools: lychee@0.24.2
+      tool-assets: .github/ci-tools.json
