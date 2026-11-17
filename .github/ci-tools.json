@@ -16,7 +16,8 @@
           "file": "lychee",
           "executable": true
         }
-      ]
+      ],
+      "file": "lychee-x86_64-unknown-linux-gnu.tar.gz"
     }
   ]
 }
