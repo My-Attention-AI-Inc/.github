@@ -10,3 +10,10 @@ for this
 organization. It is abstract artwork, not a product screenshot.
 
 [Visit NDDev](https://nddev.ai)
+
+## Source checks
+
+Run `just check` to validate task formatting, local documentation links and the
+profile cover reference. `just verify` runs the same source check. CI prepares
+the verified Lychee archive declared in `.github/ci-tools.json`; local checks require
+it on `PATH`. No application test or server is involved.
