@@ -12,7 +12,7 @@ permissions: {}
 
 jobs:
   check:
-    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/check.yml@6d2cdfdf3edba130dada52a8046b8a8e9f089204 # v0.6.97
+    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/check.yml@f462390d92c31b0501c2af35e898603e49ce5baf # v0.6.101
     permissions:
       contents: read
     with:
